@@ -1,5 +1,10 @@
+body {
+margin: 0;
+}
+
 main {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
@@ -9,5 +14,5 @@ article {
     background-color: grey;
     width: 100px;
     height: 200px;
-    margin: 20px;
+    margin: 20px 0 0 20px;
 }
